@@ -1,2 +1,9 @@
-# 3040-assignment-3
+# Restaurants in Manitoba API
 
+## Description
+
+## Endpoints
+
+## Resources
+
+## Example
