@@ -11,4 +11,7 @@
 
 ### Resources
 
-### Example
+### Examples
+
+- List("Winnipeg", "pizza", 12)
+	- Returns Dominos, Pizza Pizza, etc...
