@@ -4,23 +4,28 @@
 
 Restraunts in Manitoba provides a very simple REST API to query restaurant information. Use the Restraunts in Manitoba API to find your favourite place to eat according to your choice of city, food, and budget.
 
-## Endpoints
+
+## Resources
+
+### Restaurants
+
+Basic details about a restaurant including name, location, and pricing.
+
+#### Endpoints
 - **GET /restaurants** - List all different restaurants in Manitoba
 	- Parameters:
 		- City (String): The city/town in Manitoba you want to get restaurants from. Optional.
 		- Food (String): The type of food keyword(s) you want the restaurants to serve. Optional.
 		- Budget (Integer): The maximum cost (in dollars) you are willing to pay for a menu item. Optional.
 
-## Resources
+#### Example
 
-## Example
-
-### Sample request:
+##### Sample request:
 ```bash
 curl -X GET "https://api.restaurants-in-manitoba.org/restaurants?city=winnipeg&food=pizza&budget=30"
 ```
 
-### Sample response:
+##### Sample response:
 ```js
 [
     {
@@ -43,7 +48,7 @@ curl -X GET "https://api.restaurants-in-manitoba.org/restaurants?city=winnipeg&f
 ]
 ```
 
-### Response definitions
+##### Response definitions
 | Response item | Description | Data type |
 |-|-|-|
 | name | The name of the restaurant. | String |
