@@ -2,6 +2,8 @@
 
 ## Description
 
+Restraunts in Manitoba API **provides** a very simple REST api to do a *GET* request. Use Restraunts in Manitoba API to find your favourite place to eat according to your choice of city, food or budget.
+
 ## Endpoints
 - **GET /restaurants** - List all different restaurants in Manitoba
 	- Parameters:
